@@ -1,0 +1,62 @@
+# Create, open, save and close a file.
+# 1. Create a new file named myvimtutorial.txt
+vi myvimtutorial.txt
+# 2. Write some text
+i Some text
+# 2. Save the file
+:w
+# 3. Close the file
+:q
+# 4. Show line numbers: :set number
+# 5. Hide line numbers: :set nonumber
+
+# Navigate 
+# 1. Use h,j,k and l to move the cursor
+# 2. Move to the end of a word: e
+# 3. Move to the beginning of the next word: w
+# 4. Move n words forwards: nw
+# 5. Move backward to the beginning of a word: b
+# 6. Move to the end of the line: $
+# 7. Move to the beginning of the line: 0
+# 8. Jump forward n sentences: n)
+# 9. Jump forward n paragraphs: n}
+# 10. Jump forward n lines: nj
+# 11. Jump backwards n lines: nk
+# 12. Jump to the top of the screen: H
+# 13. Jump to the bottom of the screen: L
+# 14. Jump to the end of the file: G
+# 15. Jump to the line n: nG
+# 16. Jump to the line where the cursor was before the last jump: '' (two single quotes)
+# 17. Jump to the corresponding item, e.g. from the opening to the closing bracket: %
+
+# Edit
+1. Replace a single character: r
+2. Join line below to the current one: J
+3. Replace the entire line: cc
+4. Replace the end of the word: cw
+5. Replace the end of the line: c$
+6. Undo: u
+7. Redo: Ctrl + r
+
+# Marking text
+# 1. Start visual mode: v
+# 2. Select text using h,j,k,l or
+# 3. Select word: aw
+# 4. Shift text right: >
+# 5. Shift text left: <
+# 6. Copy marked text: y 
+# 7. Switch case: ~
+
+# Registers
+# 1. Show register content: reg
+# 2. Copy into register n: "ny
+# 3. Paste contents of register n: "np 
+
+# Search and replace
+# 1. Search forward for pattern: /pattern
+# 2. Search backward for pattern: ?pattern
+# 3. Repeat search in same direction
+# 4. Repeat search in opposite direction
+# 5. Replace old with new on current line: 
+
+Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat. Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
